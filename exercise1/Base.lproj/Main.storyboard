@@ -68,6 +68,15 @@
                                     <rect key="frame" x="33" y="84" width="334" height="56"/>
                                 </variation>
                             </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j4f-Ie-2H8">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="33" y="158" width="216" height="42"/>
+                                </variation>
+                            </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AlbertEinsteinStamp.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="7m2-et-uSp">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
@@ -108,6 +117,7 @@
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="Czl-W3-bhY"/>
+                                <exclude reference="j4f-Ie-2H8"/>
                                 <exclude reference="7m2-et-uSp"/>
                                 <exclude reference="wPL-jc-f3W"/>
                                 <exclude reference="bke-MR-PBZ"/>
@@ -117,6 +127,7 @@
                         <variation key="widthClass=compact">
                             <mask key="subviews">
                                 <include reference="Czl-W3-bhY"/>
+                                <include reference="j4f-Ie-2H8"/>
                                 <include reference="7m2-et-uSp"/>
                                 <include reference="wPL-jc-f3W"/>
                                 <include reference="bke-MR-PBZ"/>
@@ -128,6 +139,7 @@
                         <outlet property="enterMessageTextField" destination="bke-MR-PBZ" id="hIE-xD-iJJ"/>
                         <outlet property="enterNameTextField" destination="wPL-jc-f3W" id="cQN-Ld-WQz"/>
                         <outlet property="messageLabel" destination="Czl-W3-bhY" id="1XI-tm-HIb"/>
+                        <outlet property="nameLabel" destination="j4f-Ie-2H8" id="KD8-lE-TbP"/>
                         <outlet property="sendMailButton" destination="Fzc-Oz-IuX" id="cxX-fv-Kjx"/>
                     </connections>
                 </viewController>
